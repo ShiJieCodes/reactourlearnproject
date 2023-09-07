@@ -21,7 +21,7 @@ const Tour = ({ id, image, info, name, price, testing }) => {
         </p>
         <button
           type="button"
-          className="btn btn-block-dekete-btn"
+          className="btn btn-block delete-btn"
           onClick={() => testing(id)}
         >
           not interested
